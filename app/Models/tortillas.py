@@ -1,16 +1,17 @@
 #python
 from uuid import UUID
+from typing import List
 #pydantic
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 #fastapi
 
 #datos de las tortillas
 class Tortillas(BaseModel):
-    tipo: str
-    propiedades: str
-    tortilla_id: UUID
-    foto_tortilla: str 
+    tipo: str = Field(...)
+    propiedades: List[str] = Field(...)
+    tortilla_id: UUID = Field(...)
+    foto_tortilla: str  = Field(default=None)
 
 #Ingredientes de tortillas
 class Ingredientes(Tortillas):
-    foto_ingredientes: str 
+    foto_ingredientes: List[str] = Field(...)
