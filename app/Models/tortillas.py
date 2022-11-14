@@ -7,8 +7,12 @@ from pydantic import BaseModel, Field
 
 #datos de las tortillas
 class Tortillas(BaseModel):
-    tipo: str = Field(...)
-    propiedades: List[str] = Field(...)
+    tipo: str = Field(
+        ...,
+        example="tortilla de pimiento")
+    propiedades: List[str] = Field(
+        ...,
+        example="resistencia al fuego, velocidad")
     tortilla_id: UUID = Field(...)
     foto_tortilla: str  = Field(default=None)
 
