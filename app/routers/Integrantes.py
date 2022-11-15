@@ -1,9 +1,7 @@
 #Python 
-import json
-from typing import List
 #Pydantic
 #fastAPI
-from fastapi import APIRouter,status, Body, Path
+from fastapi import APIRouter,status
 #datos integrantes
 from ..DB import datos_integrantes
 

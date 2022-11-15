@@ -40,17 +40,13 @@ class Integrantes(BaseModel):
     )
 
 #datos mas especificos de los streamers
-class Streamers(Integrantes):
+class Streamers(BaseModel):
     canal_twitch: str = Field(
         ..., 
         min_length=1,
         max_length=50,
         example="Vegetta777"
     )
-    media_viewers: str = Field(
-        default=None,
-        example="1000"
-        )
     #foto perfil del canal de twitch
     canal_image: str = Field(...)
     #pueblo donde vive
@@ -58,7 +54,6 @@ class Streamers(Integrantes):
         ...,
         example="Pueblo Verde"
         )
-    casa: str = Field(default=None)
     temporada_tortilla: str  = Field(
         ...,
         example="1"

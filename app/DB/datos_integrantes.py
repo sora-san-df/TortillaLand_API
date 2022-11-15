@@ -6,6 +6,7 @@ from ..Models import Integrantes_model
 
 
 integrantes = Integrantes_model.Integrantes
+canal = Integrantes_model.Streamers
 
 db: List[integrantes]=[
     #El_Mariana
@@ -348,5 +349,219 @@ db: List[integrantes]=[
         pais_origen="Argentina",
         pais_residencia="Argentina"
     )
+
+]
+
+canales: List[canal]=[
+    canal(
+        canal_twitch="ELMARIANA",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="ELSPREEN",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="KARCHEZ",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="AXOZER",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="DJMARIIO",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="BIYIN_",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="ARIGAMEPLAYS",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="CARRERAAA",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="CAROLA",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="POLISPOL1",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="AURONPLAY",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="JUANSGUARNIZO",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="AROYITT",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="MAYICHI",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="IBAI",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="XXXTHEFOCUSXXX",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="REBORN_LIVE",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="TANIZEN",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="ERNESBARBEQ",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="BARCAGAMER",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="ERNESBARBEQ",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="IAMCRISTININI",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="PATODEAQUALAND",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="PERXITAA",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="VIOLETAG",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="IMANTADO",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+     canal(
+        canal_twitch="DESST3",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="KOMANCHE",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="ZORMANWORLD",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="ZORMANWORLD",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="COOLIFEGAME",
+        canal_image="foto.png",
+        pueblo="pueblo verde",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="GTV_GENESIS",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="JABU06",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="DEQIUV",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
+    canal(
+        canal_twitch="BETRA",
+        canal_image="foto.png",
+        pueblo="pueblo naranja",
+        temporada_tortilla="2"
+    ),
 
 ]
