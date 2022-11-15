@@ -25,13 +25,7 @@ class Integrantes(BaseModel):
         ...,
         example="5361a11b-615c-42bf-9bdb-e2c3790ada14")
         
-    edad: int = Field(
-        ...,
-        gt=1,
-        lt=90,
-        example="69"
-        
-        )
+    edad: str = Field(...)
     pais_origen: str = Field(
         ...,
         min_length=1,

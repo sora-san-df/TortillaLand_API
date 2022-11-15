@@ -20,11 +20,11 @@ def integrantes():
     """
     integrantes 
 
-    la funcion integrantes en teoria deberia devolverme un json con los datos de los integrantes(en este caso de ejemplo seria 1)
-
+    La funcion integrantes nos devuelve lso datos basicos de los integrantes de tortillaland, como nombre, edad, pais de residencia,
+    pais donde vive actualmente, etc. El modelo Streamer tiene datos mas especficos de sus canales de twitch
 
     Params:
-     -None
+     - None
 
     Returns: 
     Un json con los datos de los integrantes.
