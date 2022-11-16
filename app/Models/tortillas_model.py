@@ -1,6 +1,7 @@
 #python
 from uuid import UUID
 from typing import List
+
 #pydantic
 from pydantic import BaseModel, Field
 #fastapi
@@ -9,10 +10,12 @@ from pydantic import BaseModel, Field
 class Tortillas(BaseModel):
     tipo: str = Field(
         ...,
-        example="tortilla de pimiento")
-    propiedades: List[str] = Field(
+        example="tortilla de pimiento"
+    )
+    propiedades: str = Field(
         ...,
-        example="resistencia al fuego, velocidad")
+        example="resistencia al fuego, velocidad"
+        )
     tortilla_id: UUID = Field(...)
     foto_tortilla: str  = Field(default=None)
 
