@@ -26,5 +26,5 @@ https://cq0ykg.deta.dev/docs
 - Click here to see the data of each member of tortillaland
 https://cq0ykg.deta.dev/integrantes
 - Click here to check the data of the twitch channels in general
-https://cq0ykg.deta.dev/canal_twitch
+https://cq0ykg.deta.dev/canales_twitch
 
