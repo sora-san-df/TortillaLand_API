@@ -21,5 +21,5 @@ BUT, maybe in my freetimes or if someone else who is also a fan of tortilland wa
 3. There could be some mistakes made by me, probably a typo or incorrect information, feel free to notify me or if you want to suggest something feel free to do it!
 
 # Now, how do i use the API itself?
-[just click here and you will be able to use it :3 a nicelloking link here](httsdap:// "just click here and you will be able to use it :3 a nicelloking link here")
+https://cq0ykg.deta.dev/docs
 
