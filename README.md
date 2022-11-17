@@ -21,5 +21,10 @@ BUT, maybe in my freetimes or if someone else who is also a fan of tortilland wa
 3. There could be some mistakes made by me, probably a typo or incorrect information, feel free to notify me or if you want to suggest something feel free to do it!
 
 # Now, how do i use the API itself?
+- Click here to read the docs
 https://cq0ykg.deta.dev/docs
+- Click here to see the data of each member of tortillaland
+https://cq0ykg.deta.dev/integrantes
+- Click here to check the data of the twitch channels in general
+https://cq0ykg.deta.dev/canal_twitch
 
