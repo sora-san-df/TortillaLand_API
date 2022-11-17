@@ -4,7 +4,7 @@ import sys
 from fastapi import FastAPI
 
 #routers
-from .routers import Integrantes,canales_twitch, tortillas
+from app.routers import Integrantes,canales_twitch, tortillas
 
 
 app = FastAPI()
