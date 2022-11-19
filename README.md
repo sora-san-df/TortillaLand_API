@@ -23,8 +23,10 @@ BUT, maybe in my freetimes or if someone else who is also a fan of tortilland wa
 # Now, how do i use the API itself?
 - Click here to read the docs
 https://cq0ykg.deta.dev/docs
-- Click here to see the data of each member of tortillaland
+- Link to consume the data of each member
 https://cq0ykg.deta.dev/integrantes
-- Click here to check the data of the twitch channels in general
+- Link to consume the data of the twitch channels of each member
 https://cq0ykg.deta.dev/integrantes/canales_twitch
+- Link to consume the data of the info about the tortillas in the series c: 
+https://cq0ykg.deta.dev/tortillas
 
