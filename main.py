@@ -13,7 +13,9 @@ from app.routers import Integrantes,canales_twitch, tortillas
 app = FastAPI()
 
 origins =[
-    "*"
+    "https://udz0ye.deta.dev/integrantes",
+    "https://udz0ye.deta.dev/integrantes/canales_twitch",
+    "https://udz0ye.deta.dev/tortillas"
 ]
 
 app.add_middleware(
