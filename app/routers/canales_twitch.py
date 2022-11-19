@@ -7,7 +7,7 @@ from ..DB import datos_integrantes
 
 router = APIRouter()
 origins: list = [
-    "*"
+    "https://cq0ykg.deta.dev/integrantes/canales_twitch"
 ]
 
 router.add_middleware(

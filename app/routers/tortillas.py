@@ -9,7 +9,7 @@ from ..DB import datos_tortillas
 
 router = APIRouter()
 origins: list = [
-    "*"
+    "https://cq0ykg.deta.dev/tortillas"
 ]
 
 router.add_middleware(
