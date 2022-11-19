@@ -11,15 +11,15 @@ from app.routers import Integrantes,canales_twitch, tortillas
 app = FastAPI()
 
 #accepted origins for the CORS 
-origins: list = [
-    "https://cq0ykg.deta.dev/docs",
-    "https://cq0ykg.deta.dev/integrantes",
-    "https://cq0ykg.deta.dev/canales_twitch"
-]
+# origins: list = [
+#     "https://cq0ykg.deta.dev/docs",
+#     "https://cq0ykg.deta.dev/integrantes",
+#     "https://cq0ykg.deta.dev/canales_twitch"
+# ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=['*'],
     allow_credentials=False,
 )
 
