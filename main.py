@@ -1,7 +1,7 @@
 
 #fastapi
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.cors import CORSMiddleware
 
 #routers
 from app.routers import Integrantes,canales_twitch, tortillas
