@@ -12,17 +12,15 @@ app = FastAPI()
 
 #accepted origins for the CORS 
 origins: list = [
-    "https://cq0ykg.deta.dev/docs",
-    "https://cq0ykg.deta.dev/integrantes",
-    "https://cq0ykg.deta.dev/canales_twitch"
+    "*"
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["GET"],
-    allow_headers=[]
+    allow_methods=["*"],
+    allow_headers=["*"]
 )
 
 app.include_router(Integrantes.router)
