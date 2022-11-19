@@ -1,10 +1,22 @@
 #fastAPI
 from fastapi import APIRouter,status
+from fastapi.middleware.cors import  CORSMiddleware
 #Datos integrantes 
 from ..DB import datos_integrantes
 
 
 router = APIRouter()
+origins: list = [
+    "*"
+]
+
+router.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 
 @router.get(
     path="/integrantes/canales_twitch",
