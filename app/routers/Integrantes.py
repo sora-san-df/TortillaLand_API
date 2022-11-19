@@ -10,17 +10,7 @@ from ..DB import datos_integrantes
 
 router = APIRouter()
 #accepted origins for the CORS 
-origins: list = [
-    "https://cq0ykg.deta.dev/integrantes"
-]
 
-router.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"]
-)
 
 @router.get(
     path="/integrantes",
